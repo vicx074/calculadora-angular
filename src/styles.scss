@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import './reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+    --color-primary: #6200ea;
+    --color-secondary: #6200ea;
+    --color-calc: #ffffff;
+    --bg-color: #121212;
+    --bg-title-color: #361164;
+    --bg-btn-color: #333333;
+    --bg-btn-number-color: #444444;
+    --bg-btn-equal-color: #333333;
+    --bg-btn-hover-color: #cfcdcd;
+}
+
+
+html{
+    font-family: 'Monstserrat', sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 8px 0;
+}
